@@ -1,0 +1,26 @@
+//j = 0;
+//while ((i < philosopher->members))
+//{
+//	pthread_mutex_lock(&philosopher[i].forks[i]);
+//	//if (ac2 == 6 && philosopher[i].num_of_eat >= philosopher->must_eat)
+//	//	j++;
+//	//if (j == philosopher[i].members)
+//	//	break ;
+//	if ((gettime() - philosopher[i].last_t_eat) >= philosopher->t_die
+//		&& philosopher[i].if_true == 1)
+//	{
+//		pthread_mutex_lock(philosopher->print);
+//		printf("%lld ms : philo number %d died \n",
+//			(gettime() - philosopher->start_time),
+//			philosopher[i].index + 1);
+//		//pthread_mutex_destroy(philosopher->forks);
+//		//pthread_mutex_destroy(philosopher->print);
+//		break ;
+//	}
+//	pthread_mutex_unlock(&philosopher[i].forks[i]);
+//	if (i == philosopher->members)
+//		j = 0;
+//	i = (i + 1) % philosopher->members;
+//}
+//check_die_condition(philosopher);
+/////////////////////////////////////////////////////////////
